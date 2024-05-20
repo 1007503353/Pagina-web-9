@@ -1,0 +1,30 @@
+body{
+font-family: Arial, Helvetica, sans-serif;
+margin: 0;
+background-image: url(imagenes/alberta-2297204_640.jpg);
+background-size: cover;
+background-attachment: fixed;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.caja{
+
+    width: 100%;
+    padding: 15px;
+}
+
+.formula{
+
+    background-color: aliceblue;
+    margin-top: 150px;
+    padding: 3px;
+}
+
+h1{
+    text-align: center;
+    color: black;
+    font-size: 40px;
+}
