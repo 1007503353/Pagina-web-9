@@ -1,11 +1,85 @@
-.haiber{
-    color: #dc0000;
+
+*{
+    box-sizing: border-box;
 }
 
-.lista{
-    color: #ff0000;
+.caja{
+
+    width: 100%;
+    padding: 200px;
 }
 
-.cosas{
-    color: blue;
+.formula{
+
+    background-color: aliceblue;
+    margin-top: 150px !important;
+    padding: 3px;
 }
+
+h1{
+    text-align: center;
+    color: black;
+    font-size: 40px;
+}
+
+input[type="text"],
+input[type="password"]{
+    font-size: 20px;
+    width: 80%;
+    padding: 5px;
+    border:none;
+}
+
+.put-formula{
+    margin-bottom: 16px;
+    border: 0px solid #aaa;
+}
+
+.icon{
+    min-width: 40px;
+    text-align: center;
+    color:#000000;
+}
+
+.button{
+    border: none;
+    width: 100%;
+    color:white;
+    font-size: 20px;
+    background: #1a2537;
+    padding: 15px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.button:haver{
+    background: cadetblue;
+}
+
+p{
+    text-align: center;
+}
+
+.link{
+    text-decoration: none;
+    color: #1a2537;
+    font-weight: 600;
+
+}
+
+.link:haver{
+    color: cadetblue;
+}
+
+@media(min-width:768px)
+{
+    .formula{
+        margin: auto;
+        width: 500px;
+        
+    }
+}
+
+
+
+
